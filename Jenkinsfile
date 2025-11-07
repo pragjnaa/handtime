@@ -1,6 +1,6 @@
 pipeline {
-  agent any {
-    stages
+  agent any 
+    stages{
     stage("git checkout") {
          steps{
           git branch: 'main', url: 'https://github.com/pragjnaa/handtime.git' 
